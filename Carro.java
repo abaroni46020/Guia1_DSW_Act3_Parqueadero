@@ -1,7 +1,7 @@
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- * Universidad Ean (Bogot· - Colombia)
- * Departamento de IngenierÌa de Sistemas
+ * Universidad Ean (Bogot√° - Colombia)
+ * Departamento de Ingenier√≠a de Sistemas
  * Licenciado bajo el esquema Academic Free License version 2.1
  * <p>
  * Proyecto: Parqueadero
@@ -33,7 +33,7 @@ public class Carro {
     // -----------------------------------------------------------------
 
     /**
-     * Crea un carro con la informaciÛn b·sica.
+     * Crea un carro con la informaci√≥n b√°sica.
      * @param pPlaca Placa del carro. pPlaca != null.
      * @param pHora Hora de ingreso.
      */
@@ -43,7 +43,7 @@ public class Carro {
     }
 
     // -----------------------------------------------------------------
-    // MÈtodos
+    // M√©todos
     // -----------------------------------------------------------------
 
     /**
@@ -56,15 +56,15 @@ public class Carro {
 
     /**
      * Retorna la hora de llegada del carro.
-     * @return La hora en la que llegÛ el carro al parqueadero.
+     * @return La hora en la que lleg√≥ el carro al parqueadero.
      */
     public int darHoraLlegada() {
         return horaLlegada;
     }
 
     /**
-     * Indica si la placa del carro es igual a la recibida por par·metro.
-     * @param pPlaca Placa contra la que se est· comparando. pPlaca != null.
+     * Indica si la placa del carro es igual a la recibida por par√°metro.
+     * @param pPlaca Placa contra la que se est√° comparando. pPlaca != null.
      * @return Retorna true si las placas son iguales, false en caso contrario.
      */
     public boolean tienePlaca(String pPlaca) {
@@ -79,10 +79,10 @@ public class Carro {
     }
 
     /**
-     * Calcula el n˙mero de horas que debe pagar el carro seg˙n el tiempo que lleva el auto en el parqueadero.
+     * Calcula el n√∫mero de horas que debe pagar el carro seg√∫n el tiempo que lleva el auto en el parqueadero.
      * @param pHoraSalida Hora a la que el carro sale del parqueadero. pHoraSalida >= horaLlegada.
      * @return Tiempo que ha estado en parqueadero.
-     */
+     */jhjhkjhk
     public int darTiempoEnParqueadero(int pHoraSalida) {
         int tiempoParqueadero = pHoraSalida - horaLlegada + 1;
         return tiempoParqueadero;
