@@ -82,7 +82,7 @@ public class Carro {
      * Calcula el número de horas que debe pagar el carro según el tiempo que lleva el auto en el parqueadero.
      * @param pHoraSalida Hora a la que el carro sale del parqueadero. pHoraSalida >= horaLlegada.
      * @return Tiempo que ha estado en parqueadero.
-     */jhjhkjhk
+     */
     public int darTiempoEnParqueadero(int pHoraSalida) {
         int tiempoParqueadero = pHoraSalida - horaLlegada + 1;
         return tiempoParqueadero;
